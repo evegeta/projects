@@ -1,26 +1,23 @@
-import AddTodo from "./components/AddTodo"
-import AppName from "./components/AppName"
-import TodoItem1 from "./components/TodoItem1"
-import TodoItem2 from "./components/TodoItem2"
-import "./App.css";
+
+import Hello from "./Hello";
+import Random from "./Random";
 
 function App() {
 
-  return (
-    <center className="Todo-container">
-      <AppName/>
-      <AddTodo/>
-      <div className="items-container">
-      <TodoItem1/>
-      <TodoItem2/>
 
-      </div>
-      
-
-    </center>
-  );
+  return <div>
+    <h1>
+      the is my first code in react
+    </h1>
 
 
+    <Hello> </Hello>
+    <Random></Random>
+    <Random></Random>
+    <Random></Random>
+    <Random></Random>
+
+  </div>
 
 
 }
